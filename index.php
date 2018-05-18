@@ -7,4 +7,4 @@ $layout = $app->initLayout('Centered');
 $form = $app->add('Form');
 $form->setModel(new Friends($db));
 ?> */
-echo 'Wor";
+echo 'Wor';
