@@ -6,4 +6,5 @@ $layout = $app->initLayout('Centered');
 $form = $app->add('Form');
 $form->setModel(new Friends($db));
 $button = $app ->add(['Button' , 'Admin']);
+$button -> link([admin]);
 ?>
